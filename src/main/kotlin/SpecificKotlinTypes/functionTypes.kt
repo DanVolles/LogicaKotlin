@@ -1,5 +1,7 @@
 package SpecificKotlinTypes
 
+import kotlin.concurrent.thread
+
 fun main () {
 
     // Unity --> Tipo de função | Especifica funções que não tem retorno específico
@@ -16,7 +18,15 @@ fun main () {
         return result
     }
 
-    //Nothing --> Função que é uma rotina infinita, um looping infinito
-    
+    forever()
 
+}
+
+//Nothing --> Função que é uma rotina infinita, um looping infinito
+fun forever (): Nothing {
+    val text = "Eu te amo"
+    while (true) {
+        Thread.sleep(500)
+        println(text)
+    }
 }
