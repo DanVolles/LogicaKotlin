@@ -18,6 +18,10 @@ fun main () {
     val numberAny: Any = 10 // <- numero
     val textAny: Any = "10" // <- texto
 
+    // Booleans
+    val verdadeiro = true
+    val falso = false
+
     // Unity --> Tipo de função | Especifica funções que não tem retorno específico
     // Funções são, por padrão, Unit
     // Unit está para o void do Java

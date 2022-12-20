@@ -11,10 +11,15 @@ fun main () {
     println(name)
 
     // Variáveis imutáveis (val)
-    val idade = 25
-    println(idade)
+    val age = 25
+    println(age)
     // idade = 28 //--> isso aqui dá erro
 
+    // Não é necessário definir o tipo, o Kotlin infere isso
+    val nomeCompleto = "Danilo Volles"
+    val idade = 26 // --> inferiu-se que é um Int
+    val anosDeRelacionamento: Byte = 6 // --> Forcei o kotlin a reconhecer que isso é um tipo-byte
+    val conjuge: String = "Andressa"
 
 
     println(pi)
