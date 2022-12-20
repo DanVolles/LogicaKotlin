@@ -3,6 +3,20 @@ const val x: Double = 123.123 // Estou forçando o kotlin a compilar isso aqui c
 
 fun main () {
 
+    // Variáveis mutáveis (var)
+    var name = "Danilo"
+    println(name)
+    //Para mudar o valor da variável é só:
+    name = "Danilo Volles Araujo"
+    println(name)
+
+    // Variáveis imutáveis (val)
+    val idade = 25
+    println(idade)
+    // idade = 28 //--> isso aqui dá erro
+
+
+
     println(pi)
 
     var y = 10
