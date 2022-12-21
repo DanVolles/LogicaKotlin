@@ -31,14 +31,4 @@ fun main(args: Array<String>) {
     }
 
     println(product)
-
-// ----------- While
-
-    var sum = 1
-    while (sum < 1_000) {
-        sum += 1
-        println(sum)
-        break
-    }
-
 }
