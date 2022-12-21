@@ -1,19 +1,24 @@
 package ControlFlow
 
-fun main() {
+fun main(args: Array<String>) {
 
-    // ----------- If
-    val age = 20
-    if (age > 18) {
-        println("abrir a tela 'maior de idade'.")
+// ----------- If
+
+// --- Ex. 1
+    var age = 20
+
+    if (age >= 18) {
+        println("Maior ou igual a 18 anos.")
     } else {
-        println("abrir a tela 'menor de idade")
+        println("Menor de 18 anos.")
     }
-
+// --- Ex. 2
     val a = 10
     val b = 20
     val max = if (a > b) a else b
+    println(max)
 
+// --- Ex. 3
     val bankAccount = 2000
     val product = if(bankAccount > 1900) {
         "iPhone"
@@ -27,7 +32,7 @@ fun main() {
 
     println(product)
 
-    // ----------- While
+// ----------- While
 
     var sum = 1
     while (sum < 1_000) {
