@@ -1,4 +1,4 @@
-package SpecificKotlinTypes.Operators
+package specificKotlinTypes.operators
 
 fun main(args: Array<String>) {
 

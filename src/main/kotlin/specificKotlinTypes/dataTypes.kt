@@ -1,4 +1,4 @@
-package SpecificKotlinTypes
+package specificKotlinTypes
 
 fun main () {
 

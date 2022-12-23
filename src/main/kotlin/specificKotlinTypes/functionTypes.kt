@@ -1,6 +1,4 @@
-package SpecificKotlinTypes
-
-import kotlin.concurrent.thread
+package specificKotlinTypes
 
 fun main () {
 
