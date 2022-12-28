@@ -34,4 +34,15 @@ fun main(args: Array<String>) {
     numberC = --numberB
     println("--- Operator: -- ---\n$numberC")
 
+    /*
+    ++a ou a++:
+    a ordem de incremento importa:
+    no caso do ++a, o incremento ocorre antes da variável
+    no caso do a++, o incremento ocorre depois
+     */
+
+    // Também podemos colocar assim, como no Java
+    numberA += 2
+    println(numberA)
+
 }
