@@ -15,8 +15,8 @@ package exercises
 fun main() {
 
     var nomeCompleto = "Danilo Volles Araujo"
-    var texto = ""
-    var calcado: Byte = 42
+    var texto: String
+    val calcado: Byte = 42
 
     val pibBrasil = 1_869_000_000_000
     val populacaoBrasil = 211_000_000
