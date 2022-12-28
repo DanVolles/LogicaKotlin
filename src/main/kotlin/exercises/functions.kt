@@ -1,12 +1,11 @@
 package exercises
 
+import java.util.Scanner
 import kotlin.math.*
 
 fun main() {
 
-    /* 1. Escrever uma função capaz de receber a quantidade de anos e
-     *    transformar em meses, dias, horas, minutos e segundos
-     */
+    // 1. Transformar anos em meses, dias, horas, minutos e segundos
     tempo(5)
 
     // 2. Receber string e retornar qtd de caracteres
