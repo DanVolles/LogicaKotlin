@@ -1,18 +1,25 @@
 package exercises
 
 import java.util.Scanner
-import kotlin.math.*
+
+var input = Scanner(System.`in`)
 
 fun main() {
 
     // 1. Transformar anos em meses, dias, horas, minutos e segundos
-    tempo(5)
+    println(" -- Forneça um número de anos -- ")
+    var anos = input.nextInt()
+    tempo(anos)
 
     // 2. Receber string e retornar qtd de caracteres
-    println(qtdCaracteres("Danilo"))
+    println(" -- Forneça uma string -- ")
+    var str = input.next()
+    println("Na palavra $str possuem ${qtdCaracteres(str)} caracteres.")
 
     // 3. Calcular o cubo de um numero
-    println(cubo(20))
+    println(" -- Forneça um número inteiro -- ")
+    var number = input.nextInt()
+    println("O cubo do número $number é ${cubo(number)}.")
 
     // 4. Converter milhas em KM
     println(miToKm(300))
