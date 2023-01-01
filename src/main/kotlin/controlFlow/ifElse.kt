@@ -31,4 +31,21 @@ fun main(args: Array<String>) {
     }
 
     println(product)
+
+    val dia = true
+    saudacao(dia)
+    saudacao2(dia)
+
 }
+
+// --- Ex. 4
+fun saudacao(dia:Boolean): String {
+    return if (dia) {
+        "Bom dia"
+    } else {
+        "Boa noite"
+    }
+}
+
+// Ex. 4 em unica linha:
+fun saudacao2 (dia: Boolean) = if(dia) {"Bom dia"} else {"Boa tarde"}
