@@ -1,4 +1,4 @@
-package specificKotlinTypes.operators
+package study.specificKotlinTypes.operators
 
 fun main(args: Array<String>) {
     var numberA = 10

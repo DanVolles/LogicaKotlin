@@ -1,4 +1,4 @@
-package exercises
+package study.exercises
 
 /*
  *  Crie um programa

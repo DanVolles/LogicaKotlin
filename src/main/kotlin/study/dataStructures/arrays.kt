@@ -1,4 +1,4 @@
-package dataStructures
+package study.dataStructures
 
 fun main(args: Array<String>) {
 

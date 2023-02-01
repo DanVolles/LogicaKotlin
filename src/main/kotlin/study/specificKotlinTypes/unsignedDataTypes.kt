@@ -1,4 +1,4 @@
-package specificKotlinTypes
+package study.specificKotlinTypes
 
 fun main(args: Array<String>) {
 

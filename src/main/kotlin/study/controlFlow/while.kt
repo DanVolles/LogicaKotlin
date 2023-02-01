@@ -1,4 +1,4 @@
-package controlFlow
+package study.controlFlow
 
 fun main(args: Array<String>) {
 

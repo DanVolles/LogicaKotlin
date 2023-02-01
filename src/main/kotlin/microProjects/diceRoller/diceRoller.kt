@@ -1,4 +1,4 @@
-package poo
+package microProjects.diceRoller
 
 fun main() {
     val d4 = Dice (4)

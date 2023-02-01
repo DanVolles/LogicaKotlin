@@ -1,4 +1,4 @@
-package poo
+package microProjects.diceRoller
 
 class Dice (private val sides: Int) {
 

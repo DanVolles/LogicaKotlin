@@ -1,4 +1,4 @@
-package functions
+package study.functions
 
 /*
 Tipos de retorno:

@@ -1,4 +1,4 @@
-package functions
+package study.functions
 
 fun main() {
 
