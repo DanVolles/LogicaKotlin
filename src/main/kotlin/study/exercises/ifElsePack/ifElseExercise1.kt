@@ -1,4 +1,4 @@
-package study.exercises
+package study.exercises.ifElsePack
 
 import java.util.*
 
