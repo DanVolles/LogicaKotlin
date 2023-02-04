@@ -6,9 +6,7 @@ Informe se formam um quadrado (lados iguais)
  */
 
 fun main() {
-
     square()
-
 }
 
 fun square() {
