@@ -7,6 +7,27 @@ Informe se formam um quadrado (lados iguais)
 
 fun main() {
 
+    square()
+
+}
+
+fun square() {
+
+    print("Input the height of the quadrilateral: ")
+    val side1 = readln().toDouble()
+    print("Input the width of the quadrilateral: ")
+    val side2 = readln().toDouble()
+
+    if (side1 == side2) {
+        println("It is a square!")
+    } else {
+        println("It is not a square!")
+    }
+}
+
+/* ----- FIRST RESOLUTION -----
+fun main() {
+
     println("In this program we will determinate if a quadrilateral is a square!\n" +
             "Please, input the height of this quadrilateral:")
     val height = readLine()
@@ -20,3 +41,4 @@ fun main() {
         println("This is not a Square")
     }
 }
+ */
