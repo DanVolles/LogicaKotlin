@@ -12,6 +12,32 @@ ENGLISH
     The ticket must start with XT if they are Standart
  */
 
+fun partyEntry() {
+
+    println("Please, enter your age:")
+    val age = readln().toInt()
+
+    if (age < 18) {
+        return println("You must have +18 years to enter the event.")
+    }
+
+    println("Please, enter the ticket code:")
+    val ticket = readln()
+
+    if (ticket.startsWith("XL", true)){
+        println("You have a Premium ticket! Be Welcome!")
+    } else if (ticket.startsWith("XT", true)){
+        println("You have a Standard ticket! Be Welcome!")
+    } else {
+        println("Invalid ticket")
+    }
+}
+
+fun main() {
+    partyEntry()
+}
+
+/* ----- FIRST RESOLUTION -----
 fun main() {
 
     println("Please, identify yourself to entry the event.")
@@ -37,3 +63,4 @@ fun main() {
         }
     }
 }
+ */
