@@ -1,4 +1,4 @@
-package study.exceptions
+package study.theory.exceptions
 
 fun main() {
 

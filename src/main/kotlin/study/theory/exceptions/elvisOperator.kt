@@ -1,4 +1,4 @@
-package study.exceptions
+package study.theory.exceptions
 
 /*
 O operador Elvis é um tipo de controle de fluxo que necessita o entendimento de exceptions e Null Safety

@@ -1,4 +1,4 @@
-package study.specificKotlinTypes
+package study.theory.specificKotlinTypes
 
 fun main () {
 
