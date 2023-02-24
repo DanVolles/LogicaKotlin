@@ -36,22 +36,22 @@ fun ex2() {
     println("The double of $wholeNumber is $double.")
 }
 
-fun ex3MathAntecessor(n: Int): Int {
-    return n-1
+fun ex3Math(n: Int): Array<Int> {
+
+    val antecessor = n - 1
+    val sucessor = n + 1
+
+    return arrayOf(antecessor, sucessor)
 }
 
-fun ex3MathSucessor(n: Int): Int {
-    return n+1
-}
 
 fun ex3() {
 
     println(" --- ex 3 --- ")
     println("Input a whole number")
     val wholeNumber = readln().toInt()
-    val n1 = ex3MathAntecessor(wholeNumber)
-    val n2 = ex3MathSucessor(wholeNumber)
-    println("The antecessor of $wholeNumber is $n1 and the sucessor is $n2")
+    val between = ex3Math(wholeNumber)
+    println("The antecessor of $wholeNumber is ${between[0]} and the sucessor is ${between[1]}")
 }
 
 fun ex4() {
