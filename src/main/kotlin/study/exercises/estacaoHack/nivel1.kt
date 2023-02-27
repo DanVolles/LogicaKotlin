@@ -89,17 +89,6 @@ fun ex5() {
 
 }
 
-fun main() {
-
-//    ex1()
-//    ex2()
-//    ex3()
-
-//    ex5()
-
-    ex6()
-}
-
 fun ex6() {
 
     println(" --- ex 6 --- ")
@@ -113,4 +102,35 @@ fun ex6() {
     val total = price - ((discount * price) / 100)
 
     println("The total of the purchase is $total")
+}
+
+fun main() {
+
+    val menu = "Chose the exercise" +
+            "1. Return the square of a number.\n" +
+            "2. Return the double of a number.\n" +
+            "3. Return the antecessor and the sucessor of a number.\n" +
+            "4. Show the total of seconds in a set number of days.\n" +
+            "5. Show the average of five values.\n" +
+            "6. Show the discount in a transaction." +
+            "0. Finish the program"
+
+    println(menu)
+    var menuSelect = readln().toInt()
+
+    while (menuSelect != 0) {
+
+        when (menuSelect) {
+            1 -> ex1()
+            2 -> ex2()
+            3 -> ex3()
+            5 -> ex5()
+            6 -> ex6()
+        }
+
+        println(menu)
+        menuSelect = readln().toInt()
+
+    }
+
 }
