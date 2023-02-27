@@ -1,6 +1,5 @@
 package study.exercises.estacaoHack
 
-import study.exercises.forWhilePack.sum
 
 /*
 Desenvolva algoritmos que:
@@ -56,7 +55,6 @@ fun ex5MathArrays(n: IntArray): Float {
     val sum = n.sum()
     return (sum/5).toFloat()
 }
-
 fun ex5Math(n1:Int, n2:Int, n3:Int, n4:Int, n5:Int): Float {
     return ((n1 + n2 + n3 + n4 + n5) / 5).toFloat()
 }
@@ -97,6 +95,22 @@ fun main() {
 //    ex2()
 //    ex3()
 
-    ex5()
+//    ex5()
 
+    ex6()
+}
+
+fun ex6() {
+
+    println(" --- ex 6 --- ")
+
+    println("Let's determine a discount in a transaction")
+    print("Input the total of the transaction: ")
+    val price = readln().toDouble()
+    print("Input the % of discount: ")
+    val discount = readln().toDouble()
+
+    val total = price - ((discount * price) / 100)
+
+    println("The total of the purchase is $total")
 }

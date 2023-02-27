@@ -79,4 +79,4 @@ fun parOuImparAlternativa(n: Int) {
 //    } else {
 //        "$mensagem obeso de risco"
 //    }
-}
+//}
