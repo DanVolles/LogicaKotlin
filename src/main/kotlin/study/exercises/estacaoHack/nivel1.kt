@@ -23,6 +23,8 @@ fun ex1() {
     println("The square of $wholeNumber is $resultEx1")
 }
 
+
+
 fun ex2Math(n: Int): Int {
     return n*2
 }
@@ -34,6 +36,8 @@ fun ex2() {
     val double = ex2Math(wholeNumber)
     println("The double of $wholeNumber is $double.")
 }
+
+
 
 fun ex3Math(n: Int): Array<Int> {
 
@@ -50,6 +54,25 @@ fun ex3() {
     val between = ex3Math(wholeNumber)
     println("The antecessor of $wholeNumber is ${between[0]} and the sucessor is ${between[1]}")
 }
+
+
+
+fun ex4Math (days: Int): Int {
+    return days * 24 * 60 * 60
+}
+fun ex4() {
+    println(" --- ex 4 --- ")
+
+    println("Let's determine the amount of seconds in an amount of days")
+
+    print("Input the number of days: ")
+    val days = readln().toInt()
+
+    val answer = ex4Math(days)
+    println("There are $answer seconds in $days days.")
+}
+
+
 
 fun ex5MathArrays(n: IntArray): Float {
     val sum = n.sum()
@@ -89,6 +112,8 @@ fun ex5() {
 
 }
 
+
+
 fun ex6() {
 
     println(" --- ex 6 --- ")
@@ -103,6 +128,8 @@ fun ex6() {
 
     println("The total of the purchase is $total")
 }
+
+
 
 fun main() {
 
@@ -124,6 +151,7 @@ fun main() {
             1 -> ex1()
             2 -> ex2()
             3 -> ex3()
+            4 -> ex4()
             5 -> ex5()
             6 -> ex6()
         }
