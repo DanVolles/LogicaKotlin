@@ -136,7 +136,7 @@ fun main() {
     val menu = "Chose the exercise" +
             "1. Return the square of a number.\n" +
             "2. Return the double of a number.\n" +
-            "3. Return the antecessor and the sucessor of a number.\n" +
+            "3. Return the predecessor and the successor of a number.\n" +
             "4. Show the total of seconds in a set number of days.\n" +
             "5. Show the average of five values.\n" +
             "6. Show the discount in a transaction." +
