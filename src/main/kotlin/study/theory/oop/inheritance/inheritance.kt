@@ -1,4 +1,4 @@
-package study.theory.oop.heranca
+package study.theory.oop.inheritance
 
 open class Eletronico(var marca: String) {
     private fun ativarCorrente() {}
