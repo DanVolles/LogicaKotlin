@@ -7,12 +7,12 @@ fun main(args: Array<String>) {
 
     var opcao = 1
 
-//    when (opcao) {
-//        1 -> println("Número escolhido: 1.")
-//        2 -> println("Número escolhido: 2.")
-//        3 -> println("Número escolhido: 3.")
-//        else -> println("Erro.")
-//    }
+    when (opcao) {
+        1 -> println("Número escolhido: 1.")
+        2 -> println("Número escolhido: 2.")
+        3 -> println("Número escolhido: 3.")
+        else -> println("Erro.")
+    }
 
     var mensagem = when (opcao) {
         1 -> "1"

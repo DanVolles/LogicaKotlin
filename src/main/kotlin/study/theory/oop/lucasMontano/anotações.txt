@@ -1,0 +1,21 @@
+Principal objetivo da programação orientada a objetos:
+- Reutilizar código
+- com uma classe você consegue instanciar mais de um objeto do mesmo tipo, o que torna o código menos verboso
+-
+
+Princípios da POO
+- Encapsulamento
+- Herança
+- Abstração
+- Polimorfismo
+
+Classe
+- Recomendado criar um arquivo com o nome da classe
+- Deve ter um propósito, um objetivo.
+
+Constructor
+- Iniciar uma classe construída com aquele "argumento"
+- "Todos os cachorros já nascem com um dono"
+
+Notas gerais:
+- você sempre tem acesso a tudo que está dentro do próprio escopo {}
